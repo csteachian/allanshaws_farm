@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Allanshaws Farm</title>
+    <link href="{% static 'pages/about/style.css' %}" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<div id="page" class="page">
+    <div class="main-wrapper">
+        <div class="container">
+            <img src="{% static 'images/header-image.jpg' %}" class="header-image" alt="Farm Image">
+            <div class="bottom-left">Allanshaws Farm</div>
+        </div>
+
+        <div class="btn-group">
+            <a href="/">
+                <button>Home</button>
+            </a>
+            <a href="">
+                <button>About</button>
+            </a>
+            <a href="/gallery">
+                <button>Gallery</button>
+            </a>
+            <a href="/contact">
+                <button>Contact</button>
+            </a>
+            <a href="/links">
+                <button>Links</button>
+            </a>
+        </div>
+
+        <h1><i>About Allanshaws Farm…</i></h1>
+        <div class="row">
+            <div class="column">
+                <h2 class="about-bar-text">Allanshaws Farm is 1050 acres in size and can be found in the lush hills
+                    of
+                    the
+                    Scottish Borders. The highest altitude rises to 1400ft and it’s located 7 miles north of the
+                    market
+                    town
+                    of Galashiels.<br><br>
+                    Allanshaws Farm lambs 800 ewes per year, predominantly pure North Country Cheviots. 300 North
+                    Country
+                    Cheviot ewes are bred pure each year with 420 put to the Bluefaced Leicester to breed Cheviot
+                    Mules.
+                    The
+                    Cheviot Mule Ewe Lambs are sold privately all to good homes for stock ewes every year. There are
+                    also 40
+                    pure Suffolk ewes and 40 pure Texel ewes run on Allanshaws.<br><br>
+                    As well as sheep we also have 30 cows on the farm which are put to the Shorthorn bull to produce
+                    their
+                    own replacements. The other 100 cows are put to the Simmental bulls to produce Simmental X
+                    heifers
+                    for
+                    further breeding and Simmental X bullocks sold store.
+                </h2>
+            </div>
+
+            <div class="column">
+                <img class="about-image1" src="{% static 'images/about-image1.jpg' %}" alt="Sheep image">
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+</body>
+
+<footer>
+    <h3>© Copyright 2014 - 2022 Allanshaws Farm</h3>
+</footer>
+
+</html>

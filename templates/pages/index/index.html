@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Allanshaws Farm</title>
+    <link href="{% static 'pages/index/style.css' %}" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<div id="page" class="page">
+    <div class="main-wrapper">
+        <div class="container">
+            <img src="{% static 'images/header-image.jpg' %}" class="header-image" alt="Farm Image">
+            <div class="bottom-left">Allanshaws Farm</div>
+        </div>
+
+        <div class="btn-group">
+            <a href="">
+                <button>Home</button>
+            </a>
+            <a href="/about">
+                <button>About</button>
+            </a>
+            <a href="/gallery">
+                <button>Gallery</button>
+            </a>
+            <a href="/contacts">
+                <button>Contact</button>
+            </a>
+            <a href="/links">
+                <button>Links</button>
+            </a>
+        </div>
+
+        <div class="info-bar">
+            <h2 class="info-bar-text">
+                Allanshaws Farm, near Galashiels in the Scottish Borders is home to the award wining flock of North
+                County Cheviot Sheep, winner of the coveted Interbreed Champion, Royal Highland Show 2014</h2>
+        </div>
+
+        <div class="second-info-bar">
+            <div>
+                <h1 class="notbold"><i>Lockerbie Tup Sale 2022</i></h1>
+                <h3 class="notbold"><i>The North Country Cheviot Tup Sale at Lockerbie Market, DG11 2JA is on Wednesday
+                    14
+                    September 2022 and we shall be taking 12 shearlings to this sale, see our Facebook page for more
+                    photos.</i></h3>
+            </div>
+
+            <video class="main-page-video" autoplay muted loop>
+                <source src="{% static 'videos/main-page-video.mp4' %}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</div>
+
+</body>
+
+<footer>
+    <h3>© Copyright 2014 - 2022 Allanshaws Farm</h3>
+</footer>
+
+</html>

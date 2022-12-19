@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Allanshaws Farm</title>
+    <link href="{% static 'pages\\gallery\\style.css' %}" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<body>
+<div id="page" class="page">
+    <div class="main-wrapper">
+        <div class="container">
+            <img src="{% static 'images/header-image.jpg' %}" class="header-image" alt="Farm Image">
+            <div class="bottom-left">Allanshaws Farm</div>
+        </div>
+
+        <div class="btn-group">
+            <a href="/">
+                <button>Home</button>
+            </a>
+            <a href="/about">
+                <button>About</button>
+            </a>
+            <a href="">
+                <button>Gallery</button>
+            </a>
+            <a href="/contact">
+                <button>Contact</button>
+            </a>
+            <a href="/links">
+                <button>Links</button>
+            </a>
+        </div>
+
+        <h1><i>Gallery</i></h1>
+        <hr>
+        <div class="gallery_images">
+            <img class="gallery_image" src="{% static 'images/gallery_1.jpg' %}" alt="Sheep Image 1">
+            <img class="gallery_image" src="{% static 'images/gallery_2.jpg' %}" alt="Sheep Image 2">
+            <img class="gallery_image" src="{% static 'images/gallery_3.jpg' %}" alt="Sheep Image 3">
+            <img class="gallery_image" src="{% static 'images/gallery_4.jpg' %}" alt="Sheep Image 4">
+            <img class="gallery_image" src="{% static 'images/gallery_5.jpg' %}" alt="Sheep Image 5">
+            <img class="gallery_image" src="{% static 'images/gallery_6.jpg' %}" alt="Sheep Image 6">
+            <img class="gallery_image" src="{% static 'images/gallery_7.jpg' %}" alt="Sheep Image 7">
+            <img class="gallery_image" src="{% static 'images/gallery_8.jpg' %}" alt="Sheep Image 8">
+            <img class="gallery_image" src="{% static 'images/gallery_9.jpg' %}" alt="Sheep Image 9">
+        </div>
+
+    </div>
+</div>
+
+</body>
+
+<footer>
+    <h3>© Copyright 2014 - 2022 Allanshaws Farm</h3>
+</footer>
+
+</html>
